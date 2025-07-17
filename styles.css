@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar
+{
+    height: 72.8px;
+    background-color: #FFFFFF;
+    color:	#6e7b8b;
+    align-items: center;
+    display: flex;
+    /* border: 2px,solid,black; */
+    /* justify-content: space-evenly; */
+}
+.nav-logo
+{
+    height: 40px;
+    width:40px;
+    background-image: url("Resource/logo.png");
+    background-size: cover;
+    margin-left: 150px;
+}
+.nav-left
+{
+    display:flex;
+    align-items: center;
+}
+.nav-link
+{
+    margin-right:50px;
+}
+.nav-link a
+{
+    display:inline-block;
+    margin-left: 60px;
+    font-size: 16px; 
+    font-weight: 500;  
+}
+.nav-link a:hover
+{
+    color: #00754A;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+.nav-search input
+{
+    border: none;
+    width:200px;
+    outline: none;
+}
+.nav-search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 36px;
+    width:270px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    margin-left: 200px;
+}
+.nav-profile
+{
+    height:32px;
+    width:32px;
+    background-image: url("Resource/account_thin.svg");
+    background-size: cover;
+    margin-left: 150px;
+
+}
+.panel
+{
+    border-top: 4px solid rgb(226, 222, 222);
+    margin-top: 2px;
+    height: 80px;
+    background-color: #1E3932;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel-text
+{
+    display: flex;
+    align-items: center;
+    height: 48.4px;
+    width:1092px;
+}
+.panel-text h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    margin: 50px;
+}
+.box-know_more
+{
+    width: 304px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+.box-know_more button
+{
+    width: 96px;
+    height: 32px;
+    border-color: #FFFFFF;
+    background-color: #1E3932;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+.body1
+{
+    height: 276px;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cofe
+{
+    width: 923px;
+    height: 220px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-image: url("Resource/background.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15),-2px -2px 5px rgba(0, 0, 0, 0.15);
+
+     display: flex;
+     align-items: center;
+}
+.cofe-img1
+{
+    height: 208.75px;
+    width: 100px;
+    /* border: 2px solid black; */
+    background-image: url("Resource/cup1.png");
+    background-size: contain;         
+    background-repeat: no-repeat;       
+    background-position: center;        
+}
+.cofe-text
+{
+    height: 218.4px;
+    width:552.84px;
+    border: 2px solid black; 
+}
