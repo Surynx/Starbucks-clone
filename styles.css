@@ -34,7 +34,8 @@ body {
     display:inline-block;
     margin-left: 60px;
     font-size: 16px; 
-    font-weight: 500;  
+    font-weight: 500; 
+    transition: text-decoration, color 0.15s; 
 }
 .nav-link a:hover
 {
