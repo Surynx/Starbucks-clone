@@ -15,7 +15,7 @@ body {
 }
 .navbar
 {
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);  
     height: 72.8px;
     background-color: #FFFFFF;
     color:	#6e7b8b;
@@ -72,6 +72,11 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 50px;
     margin-left: 200px;
+}
+.nav-search:focus-within
+{
+    border: 0.3px solid black;
+    
 }
 .nav-profile
 {
@@ -166,6 +171,10 @@ body {
     width:600.84px;
     /* border: 2px solid black;  */
     color: #FFFFFF;
+}
+.cofe-text h4
+{
+    padding-top: 10px;
 }
 .same
 {
@@ -267,3 +276,82 @@ body {
     border:2px solid #00754A;
     cursor: pointer;
 }
+.body3
+{
+    height: 316.8px;
+    background-color: #edebe9;
+    margin: 24px 0px 40px;
+    position: relative;
+}
+.body3 .img1
+{
+    position:absolute;
+    height: 70px;
+    width: 57px;
+    right: 8px;
+    top: 0;
+}
+.body3 .div1
+{
+    margin-left: 60px;
+    height: 60px;
+    width: 1320px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.body3 h2
+{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.body3 h6
+{
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #00754A;
+}
+.body3 .div2
+{
+    border: 1px solid black; 
+    height: 160px;
+    width: 405px;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 16px 24px;
+    display: flex;
+}
+.body3 .div2 .img2
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+}
+.div3
+{
+    height: 279px;
+    width: 92px;
+    padding: 0px 16px;
+}
+.div3 .img3
+{
+    height: 16px;
+    width: 16px;
+    margin-top: 14px;
+}
+.div3 h3
+{
+    font-weight: 500;
+    margin: 0;
+    height: 16px;
+    width: 244px;
+    font-size: 15px;
+}
+.div3 .details
+{
+    height: 8.8px;
+    width: 69px;
+}
+
+
+
