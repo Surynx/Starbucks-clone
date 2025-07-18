@@ -114,8 +114,8 @@ body {
 }
 .body1
 {
-    height: 276px;
-    /* border: 2px solid black; */
+    height: 250px;
+    /* border: 2px solid black;  */
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ body {
 }
 .cofe
 {
-    width: 923px;
+    width: 1200px;
     height: 220px;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -133,8 +133,8 @@ body {
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15),-2px -2px 5px rgba(0, 0, 0, 0.15);
 
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
 }
 .cofe-img1
 {
@@ -149,6 +149,73 @@ body {
 .cofe-text
 {
     height: 218.4px;
-    width:552.84px;
-    border: 2px solid black; 
+    width:600.84px;
+    /* border: 2px solid black;  */
+    color: #FFFFFF;
 }
+.same
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width:552.84;
+    height: 42.28px;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cofe-button
+{
+    height: 218px;
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black;   */
+
+}
+.cofe-button button
+{
+    margin-top: 120px;
+    height: 49px;
+    width: 200px;
+    padding: auto auto;
+    background-color: #00754A;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    border: none;
+    border-radius: 30px;
+    margin-left: 250px;
+}
+.div-line
+{
+    
+    height:20px;
+    /* background-color: #00754A; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line-1
+{
+    height: 2.4px;
+    width:90px;
+    background-color: #00754A;
+}
+.line-2
+{
+    height: 2.4px;
+    width:100px;
+    background-color: rgb(212, 233, 226);
+}
+.body2
+{
+    margin-top: 80px;
+    border: 2px solid black;
+    margin-left: 160px;
+    height: 300px;
+    width: 1200px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.image-gallery
+
